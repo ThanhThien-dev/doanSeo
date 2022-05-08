@@ -78,7 +78,7 @@ const dsBaiViet = [
     id: 2,
     tenbaiviet: "Bai 2",
     content:
-      "asjdflasjfgbljasnglkasdnglkdsafkladsjklfhruugnsdagnuarnflsadjnfljasdndfljnasdgurb",
+      "Thien fixed",
     hinh: "baiviet1",
   },
   {
