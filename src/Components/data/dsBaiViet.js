@@ -69,8 +69,7 @@ const dsBaiViet = [
     id: 1,
     tenbaiviet: "Ý nghĩa các con số trong của sim.",
     content:
-      // "Tra ý nghĩa các con số điện thoại từ 0 đến 9 theo phong thủy.Đây đều là thắc mắc của rất nhiều người dùng hiện nay.",
-      "test git push",
+      "Tra ý nghĩa các con số điện thoại từ 0 đến 9 theo phong thủy.Đây đều là thắc mắc của rất nhiều người dùng hiện nay.",
     hinh: "Blog1",
     noidung: {noidung}
       
