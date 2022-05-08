@@ -1,5 +1,5 @@
 import React from "react";
-import { dsBaiViet } from "./data/dsBaiViet";
+import dsBaiViet from "./data/dsBaiViet";
 import { Link } from "react-router-dom";
 
 function News() {

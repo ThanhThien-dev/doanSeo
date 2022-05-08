@@ -11,7 +11,7 @@ var noidung = function() {
         </div>
         <br></br> <br></br>
         <div className="img_blog">
-          <img src={require("./images/img1.jpg")} alt="" />
+          <img src={require("../images/img1.jpg")} alt="" />
         </div>
 
         <h3><b>I. Một số dạng SIM số đẹp phổ biến</b></h3>
@@ -47,7 +47,7 @@ var noidung = function() {
         <b><i>3. Ý nghĩa các con số trong SIM</i></b>
         <br></br> <br></br>
         <div className="img_blog">
-          <img src={require("./images/img2.jpg")} alt="" />
+          <img src={require("../images/img2.jpg")} alt="" />
         </div>
 
         <h3><b>III. Bán lại sim điện thoại đang dùng </b></h3>
@@ -111,4 +111,4 @@ const dsBaiViet = [
   },
 ];
 
-module.exports = { dsBaiViet };
+export default dsBaiViet;
