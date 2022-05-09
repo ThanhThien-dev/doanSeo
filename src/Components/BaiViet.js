@@ -11,12 +11,14 @@ function BaiViet() {
   return (
     <div>
       {ds.map((baiviet) => {
-        const { id, tenbaiviet, hinh, content, noidung } = baiviet;
-        return (
-          <div key={id}>
-           <Noidung></Noidung>
-          </div>
-        );
+        const { id, tenbaiviet, hinh, content } = baiviet;
+        if (id === 1) {
+          return (
+            <div key={id}>
+              <Noidung></Noidung>
+            </div>
+          );
+        }
       })}
     </div>
   );

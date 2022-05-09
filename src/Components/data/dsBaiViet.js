@@ -1,4 +1,3 @@
-
 const dsBaiViet = [
   {
     id: 1,
@@ -6,13 +5,11 @@ const dsBaiViet = [
     content:
       "Tra ý nghĩa các con số điện thoại từ 0 đến 9 theo phong thủy.Đây đều là thắc mắc của rất nhiều người dùng hiện nay.",
     hinh: "Blog1",
-      
   },
   {
     id: 2,
     tenbaiviet: "Bai 2",
-    content:
-      "Thien fixed",
+    content: "Thien fixed",
     hinh: "baiviet1",
   },
   {
