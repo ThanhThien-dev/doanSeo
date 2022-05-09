@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { dsBaiViet } from "./data/dsBaiViet";
+import Noidung from "./data/noidung";
 
 function BaiViet() {
   const state = useLocation();
@@ -13,7 +14,7 @@ function BaiViet() {
         const { id, tenbaiviet, hinh, content, noidung } = baiviet;
         return (
           <div key={id}>
-            {noidung}
+           <Noidung></Noidung>
           </div>
         );
       })}
