@@ -4,7 +4,7 @@ import { FcCallback, FcCollaboration } from "react-icons/fc";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer-container">
       <div className="bch">
         <div className="bch-content">
           <h3 style={{ fontSize: "30px" }}>Hệ thống cửa hàng trên toàn quốc</h3>
@@ -49,8 +49,7 @@ function Footer() {
       <div className="end">
         <p>
           <b>
-            © PTCHH - Hệ thống phân phối Sim Viettel độc lạ lớn nhất Việt
-            Nam!
+            © PTCHH - Hệ thống phân phối Sim Viettel độc lạ lớn nhất Việt Nam!
           </b>
         </p>
         <div>

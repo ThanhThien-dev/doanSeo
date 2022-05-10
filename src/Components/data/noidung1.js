@@ -20,8 +20,10 @@ function Noidung1() {
         </b>
       </div>
       <br></br> <br></br>
-      <div className="img_blog">
-        <img src={require("../images/img1.jpg")} alt="" />
+      <div className="img-container">
+        <div className="img_blog">
+          <img src={require("../images/img1.jpg")} alt="" />
+        </div>
       </div>
       <h3>
         <b>I. Một số dạng SIM số đẹp phổ biến</b>
@@ -74,8 +76,10 @@ function Noidung1() {
         <i>3. Ý nghĩa các con số trong SIM</i>
       </b>
       <br></br> <br></br>
-      <div className="img_blog">
-        <img src={require("../images/img2.jpg")} alt="" />
+      <div className="img-container">
+        <div className="img_blog">
+          <img src={require("../images/img2.jpg")} alt="" />
+        </div>
       </div>
       <h3>
         <b>III. Bán lại sim điện thoại đang dùng </b>
