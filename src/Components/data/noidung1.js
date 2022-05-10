@@ -1,7 +1,6 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 
-function Noidung() {
+function Noidung1() {
   return (
     <div className="blog-container">
       <br></br>
@@ -95,4 +94,4 @@ function Noidung() {
     </div>
   );
 }
-export default Noidung;
+export default Noidung1;

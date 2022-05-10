@@ -8,9 +8,9 @@ const dsBaiViet = [
   },
   {
     id: 2,
-    tenbaiviet: "Bai 2",
-    content: "Thien fixed",
-    hinh: "baiviet1",
+    tenbaiviet: "Thông báo cuộc gọi nhỡ (MCA)",
+    content: "MCA là dịch vụ thông báo cuộc gọi nhỡ thông qua bản tin SMS, giúp khách hàng biết được các số thuê bao gọi đến hoặc nhắn tin đến thuê bao của mình trong thời gian tắt máy, máy hết pin",
+    hinh: "Blog2",
   },
   {
     id: 3,
