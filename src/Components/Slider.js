@@ -19,7 +19,7 @@ export default class SimpleSlider extends Component {
           <Slider {...settings}>
             <div>Sim Viettel độc lạ</div>
             <div>Thế giới sim Viettel uy tín</div>
-            <div>Kho sim PTHCC</div>
+            <div>Kho sim PTCHH</div>
           </Slider>
         </div>
       </>

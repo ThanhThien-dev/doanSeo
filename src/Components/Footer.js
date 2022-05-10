@@ -49,17 +49,17 @@ function Footer() {
       <div className="end">
         <p>
           <b>
-            © PTHCC - Hệ thống phân phối Sim Viettel độc lạ lớn nhất Việt
+            © PTCHH - Hệ thống phân phối Sim Viettel độc lạ lớn nhất Việt
             Nam!
           </b>
         </p>
         <div>
           <p></p>
-          <b>Kho sim PTHCC</b> là trang web chuyên về{" "}
+          <b>Kho sim PTCHH</b> là trang web chuyên về{" "}
           <a href="">số đẹp giá rẻ nhưng độc lạ</a>
           <br></br>
           <span style={{ color: "red" }}>
-            <b>Kho sim PTHCC - giao sim miễn phí tận nhà trên toàn quốc.</b>
+            <b>Kho sim PTCHH - giao sim miễn phí tận nhà trên toàn quốc.</b>
           </span>
         </div>
         <img src={require("./images/logoFooter.png")} className="img-footer" />

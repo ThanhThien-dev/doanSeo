@@ -1,6 +1,8 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import dsBaiViet from "./data/dsBaiViet";
+import Noidung1 from "./data/noidung1";
+import Noidung2 from "./data/noidung2";
 
 function BaiViet() {
   const state = useLocation();
@@ -10,12 +12,21 @@ function BaiViet() {
   return (
     <div>
       {ds.map((baiviet) => {
-        const { id, tenbaiviet, hinh, content, noidung } = baiviet;
-        return (
-          <div key={id}>
-            {noidung}
-          </div>
-        );
+        const { id, tenbaiviet, hinh, content } = baiviet;
+        if (id === 1) {
+          return (
+            <div key={id}>
+              <Noidung1></Noidung1>
+            </div>
+          );
+        }
+        if (id === 2) {
+          return (
+            <div key={id}>
+              <Noidung2></Noidung2>
+            </div>
+          );
+        }
       })}
     </div>
   );
