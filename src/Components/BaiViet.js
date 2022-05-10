@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import { dsBaiViet } from "./data/dsBaiViet";
+import dsBaiViet from "./data/dsBaiViet";
 
 function BaiViet() {
   const state = useLocation();
