@@ -13,10 +13,10 @@ function Noidung1() {
         một ý nghĩa mới, có thể là may mắn cũng có thể là bất lợi cho người
         dùng. Ý nghĩa số điện thoại đang dùng có tốt không? Số đuôi điện thoại
         đẹp là gì? Đây đều là thắc mắc của rất nhiều người dùng hiện nay. Thông
-        qua bài viết này, PTHCC hi vọng mọi người có thể hiểu hơn về ý nghĩa các
+        qua bài viết này, PTCHH hi vọng mọi người có thể hiểu hơn về ý nghĩa các
         sim Viettel độc lạ và chia sẻ đến bạn cách tra{" "}
         <b>
-          ý nghĩa số điện thoại, ý nghĩa các con số mà PTHCC mang lại cho bạn.
+          ý nghĩa số điện thoại, ý nghĩa các con số mà PTCHH mang lại cho bạn.
         </b>
       </div>
       <br></br> <br></br>
@@ -83,9 +83,9 @@ function Noidung1() {
       <div className="blog">
         Bạn có số sim đẹp muốn bán lại để thu hồi vốn hay chỉ đơn thuần để
         chuyển sang một số khác. Hãy liên hệ ngay cho chúng tôi với số điện
-        thoại 0123.456.789 để được tư vấn. Tiêu chí để kho sim PTHCC thu mua sim
+        thoại 0123.456.789 để được tư vấn. Tiêu chí để kho sim PTCHH thu mua sim
         số của bạn đó là số đó phải chính chủ của bạn và nó là số có giá trị .
-        Liên hệ với kho sim PTHCC chúng tôi sẽ giúp bạn.
+        Liên hệ với kho sim PTCHH chúng tôi sẽ giúp bạn.
         <br></br> <br></br>
         <div className="img_blog">
           <i>Chúc quý khách tìm được sim Viettel độc lạ ưng ý !</i>

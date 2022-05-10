@@ -8,7 +8,7 @@ function Header() {
     <div className="header">
       <div className="left-header">
         <Link to={"/"}>
-          <img src={require("./images/logo.png")} alt="" height={'100px'} />
+          <img src={require("./images/logo1.png")} alt="" height={'110px'} />
         </Link>
       </div>
       <div className="middle-header">

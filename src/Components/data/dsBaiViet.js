@@ -14,31 +14,31 @@ const dsBaiViet = [
   },
   {
     id: 3,
-    tenbaiviet: "Bai 1",
+    tenbaiviet: "Nhóm 1",
     content:
-      "asjdflasjfgbljasnglkasdnglkdsafkladsjklfhruugnsdagnuarnflsadjnfljasdndfljnasdgurb",
-    hinh: "baiviet1",
+      "Nơi đặt Backlink nhóm 1",
+    hinh: "backlink",
   },
   {
     id: 4,
-    tenbaiviet: "Bai 1",
+    tenbaiviet: "Nhóm 2",
     content:
-      "asjdflasjfgbljasnglkasdnglkdsafkladsjklfhruugnsdagnuarnflsadjnfljasdndfljnasdgurb",
-    hinh: "baiviet1",
+      "Nơi đặt Backlink nhóm 2",
+    hinh: "backlink",
   },
   {
     id: 5,
-    tenbaiviet: "Bai 1",
+    tenbaiviet: "Nhóm 3",
     content:
-      "asjdflasjfgbljasnglkasdnglkdsafkladsjklfhruugnsdagnuarnflsadjnfljasdndfljnasdgurb",
-    hinh: "baiviet1",
+      "Nơi đặt Backlink nhóm 3",
+    hinh: "backlink",
   },
   {
     id: 6,
-    tenbaiviet: "Bai 1",
+    tenbaiviet: "Nhóm 4",
     content:
-      "asjdflasjfgbljasnglkasdnglkdsafkladsjklfhruugnsdagnuarnflsadjnfljasdndfljnasdgurb",
-    hinh: "baiviet1",
+      "Nơi đặt Backlink nhóm 4",
+    hinh: "backlink",
   },
 ];
 

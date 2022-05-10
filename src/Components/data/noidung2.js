@@ -81,7 +81,7 @@ function Noidung2() {
             </div>
             <br></br>
             <div className="blog">
-            Hy vọng với hướng dẫn cách đăng ký dịch vụ thông báo cuộc gọi nhỡ MCA Viettel của <b style={{color: 'red'}}>kho sim PTHCC</b> sẽ giúp cho bạn nhanh chóng sử dụng dịch vụ để không bỏ lỡ bất kỳ cuộc gọi nào do tắt máy, hết pin, mất sóng,..nhé!
+            Hy vọng với hướng dẫn cách đăng ký dịch vụ thông báo cuộc gọi nhỡ MCA Viettel của <b style={{color: 'red'}}>kho sim PTCHH</b> sẽ giúp cho bạn nhanh chóng sử dụng dịch vụ để không bỏ lỡ bất kỳ cuộc gọi nào do tắt máy, hết pin, mất sóng,..nhé!
             </div>
 
         </div>
