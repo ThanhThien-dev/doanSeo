@@ -68,7 +68,52 @@ body {
   font-size: 20px;
   font-weight: 500;
   color: white;
+  position: relative;
   margin-right: 100px;
+}
+
+.mobile-menu-icon{
+  display: none;
+}
+
+@media screen and (max-width:1000px) {
+  .left-header{
+    display: flex;
+    position: absolute;
+  }
+  .middle-header{
+    display: none;
+  }
+  .right-header{
+    display: none;
+  }
+  .right-header-mobile{
+    position: absolute;
+    display: block;
+    background-color: #1a1a1d;
+    left:0;
+    top:120px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .tintuc,.giohang,.trogiup,.lienhe{
+    color: white;
+    text-align: center;
+    padding: 32px;
+    width: 90%;
+    transition: all 0.5 ease;
+  }
+  .mobile-menu-icon{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #1a1a1d;
+    border: none;
+    outline: none;
+    top:40px;
+    right: 100px;
+  }
 }
 
 /*Slider*/
