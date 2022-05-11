@@ -14,25 +14,22 @@ import BaiViet from "./Components/BaiViet";
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Header></Header>
-        <SimpleSlider></SimpleSlider>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <div className="product-container">
-                <Filter></Filter>
-                <Product></Product>
-              </div>
-            }
-          ></Route>
-          <Route path="/tintuc" element={<News></News>}></Route>
-          <Route path="/tintuc/:id" element={<BaiViet></BaiViet>}></Route>
-        </Routes>
-
-        <Footer></Footer>
-      </div>
+      <Header></Header>
+      <SimpleSlider></SimpleSlider>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="product-container">
+              <Filter></Filter>
+              <Product></Product>
+            </div>
+          }
+        ></Route>
+        <Route path="/tintuc" element={<News></News>}></Route>
+        <Route path="/tintuc/:id" element={<BaiViet></BaiViet>}></Route>
+      </Routes>
+      <Footer></Footer>
     </BrowserRouter>
   );
 }
