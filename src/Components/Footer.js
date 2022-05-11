@@ -28,9 +28,10 @@ function Footer() {
             <li>Hiệp Ninh, Thành phố Tây Ninh, Tây Ninh</li>
           </ul>
         </div>
-
-        <div className="bch-img">
-          <img src={require("./images/map.JPG")} alt="" />
+        <div className="img-container">
+          <div className="bch-img">
+            <img src={require("./images/map.JPG")} alt="" />
+          </div>
         </div>
       </div>
 
