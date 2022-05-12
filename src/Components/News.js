@@ -13,7 +13,7 @@ function News() {
               <div className="article-image">
                 <img src={require(`./images/${hinh}.png`)} alt="" />
               </div>
-              <Link to={`/tintuc/${id}`} state={{ idbaiviet: id }}>
+              <Link to={`/tintuc/${id}`}>
                 <div className="article-name">{tenbaiviet}</div>
               </Link>
               <div className="article-content">{content}</div>
