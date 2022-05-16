@@ -10,6 +10,8 @@ import Footer from "./Components/Footer";
 import News from "./Components/News";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BaiViet from "./Components/BaiViet";
+import Noidung1 from "../src/Components/data/noidung1";
+import Noidung2 from "../src/Components/data/noidung2";
 
 function App() {
   return (
@@ -27,7 +29,8 @@ function App() {
           }
         ></Route>
         <Route path="/tintuc" element={<News></News>}></Route>
-        <Route path="/tintuc/:id" element={<BaiViet></BaiViet>}></Route>
+        <Route path="/tintuc/1" element={<Noidung1></Noidung1>}></Route>
+        <Route path="/tintuc/2" element={<Noidung2></Noidung2>}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
