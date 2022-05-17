@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { useLocation } from "react-router-dom";
 import dsBaiViet from "./data/dsBaiViet";
 import Noidung1 from "./data/noidung1";
@@ -26,8 +27,8 @@ function BaiViet() {
               <Noidung2></Noidung2>
             </div>
           );
-        }
-      })}
+          }
+        })}
     </div>
   );
 }
