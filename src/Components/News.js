@@ -20,7 +20,23 @@ function News() {
                 <div className="article-content">{content}</div>
               </div>
             );
-          } else {
+          } 
+
+          if (id === 6){
+            return (
+              <div className="article-list" key={id}>
+                <div className="article-image">
+                  <img src={require(`./images/${hinh}.png`)} alt="" />
+                </div>
+                <a href={`https://www.uit.edu.vn`}>
+                  <div className="article-name">{tenbaiviet}</div>
+                </a>
+                <div className="article-content">{content}</div>
+              </div>
+            );
+          }
+
+          else {
             return (
               <div className="article-list" key={id}>
                 <div className="article-image">
