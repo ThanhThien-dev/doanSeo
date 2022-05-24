@@ -9,7 +9,6 @@ import Product from "./Components/Product";
 import Footer from "./Components/Footer";
 import News from "./Components/News";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import BaiViet from "./Components/BaiViet";
 import Noidung1 from "../src/Components/data/noidung1";
 import Noidung2 from "../src/Components/data/noidung2";
 
