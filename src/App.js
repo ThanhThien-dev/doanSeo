@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
 import Header from "./Components/Header";
 import SimpleSlider from "./Components/Slider";
+import About from "./Components/About";
 import Filter from "./Components/Filter";
 import Product from "./Components/Product";
 import Footer from "./Components/Footer";
@@ -22,8 +23,10 @@ function App() {
           path="/"
           element={
             <div className="product-container">
-              <Filter></Filter>
-              <Product></Product>
+              {/* Ở ĐÂY LÀ CONTENT */}
+              <About></About>
+              {/* <Filter></Filter>
+              <Product></Product> */}
             </div>
           }
         ></Route>
