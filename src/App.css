@@ -9,8 +9,6 @@ body {
 }
 
 /* Header */
-
-
 .header{
   display: flex;
   align-items: center;
@@ -129,6 +127,41 @@ body {
   padding-top: 130px;
   background-color: #e91919;
   padding-bottom: 11px;
+}
+
+/* About */
+.about-container{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #E9EAEE;
+}
+
+.about-container h1{
+  text-align: center;
+}
+
+.about-container p{
+  font-size: 20px;
+  text-align: justify;
+  text-indent: 45px;
+  line-height: 40px;
+}
+
+.about-container h4{
+  text-align: center;
+  color: red;
+}
+
+.img_about{
+  width: 60%;
+  padding-left: 200px;
+}
+
+.imgbanner_about{
+  width: 60%;
+  padding-left: 200px;
 }
 
 /*Content*/
@@ -425,7 +458,6 @@ body {
 }
 
 /* Blog */
-
 .blog-container{
   margin-left: 15%;
   margin-right: 15%;

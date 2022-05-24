@@ -3,15 +3,17 @@ import React from "react";
 function About() {
     return (
         <div className="about-container">
-            <h1>Kho sim PTCHH - Kho sim Viettel độc lạ được yêu thích nhất VN.</h1>
+            <h1>Kho sim PTCHH - Kho sim Viettel độc lạ</h1>
             <p>
-                Ra mắt vào ngày 01 tháng 05 năm 2022, <span>PTCHH</span> là kho sim lớn nhất và đáng tin cậy
+                Ra mắt vào ngày 01 tháng 05 năm 2022, PTCHH là kho sim lớn nhất và đáng tin cậy
                 nhất Việt Nam với số lượng sim số đẹp đa dạng và giá cả hợp lý giúp cho khách hàng yên tâm sở hữu
                 sim số đẹp, ưng ý mà không lo về giá thành. Sở hữu một con sim phù hợp với bản thân và mang lại phong thủy
                 giúp thuận lợi trong việc làm ăn, kinh doanh thì kho sim PTCHH là một lựa chọn lý tưởng. PTCHH là tổng kho sim
                 kinh doanh các loại sim số đẹp, đặc biệt là sim Viettel độc lạ giao hàng toàn quốc giúp việc sở hữu 1 con sim ưng ý
                 trở nên dễ dàng và thuận tiện. Sau nhiều năm hoạt động thì khách hàng luôn đặt niềm tin vào PTCHH vì những lí do sau:
             </p>
+
+            <img className="imgbanner_about" src={require("./images/banner.png")} alt="Banner" title="Kho sim PTCHH" />
 
             <h2>1. Kho sim PTCHH luôn đặt khách hàng lên hàng đầu</h2>
             <p>
@@ -59,7 +61,7 @@ function About() {
             </p>
 
             <h2>Tầm nhìn và sứ mệnh</h2>
-            <img src={require("./images/about3.png")} alt="Tầm nhìn và sứ mệnh" />
+            <img className="img_about" src={require("./images/about3.png")} alt="Tầm nhìn và sứ mệnh" />
             <p>
                 Khách hàng đến với tổng kho sim PTCHH là đến với một sự lựa chọn hoàn hảo khi mua sim số đẹp uy tín trên toàn quốc.
                 Kho sim PTCHH luôn đảm bảo quyền lợi khách hàng bằng cách:
@@ -70,15 +72,17 @@ function About() {
 
                 <li>Chính sách hỗ trợ khách hàng suốt đời sau khi giao sim.</li>
 
-                <h3>Tầm Nhìn</h3>
+                <h3><u>Tầm Nhìn</u></h3>
 
-                Trở thành đối tác mạnh và tin cậy nhất của tất cả các khách hàng và đại lý trên toàn quốc. Phát triển và mở rộng hệ thống cửa hàng sim để phục vụ khách hàng trên toàn Việt Nam.
+                <p>Trở thành đối tác mạnh và tin cậy nhất của tất cả các khách hàng và đại lý trên toàn quốc.
+                    Phát triển và mở rộng hệ thống cửa hàng sim để phục vụ khách hàng trên toàn Việt Nam.</p>
 
-                <h3>Sứ Mệnh</h3>
+                <h3><u>Sứ Mệnh</u></h3>
 
-                Luôn luôn sáng tạo không ngừng để mang tới những dịch vụ giá trị gia tăng mới cho khách hàng.
+                <p>Luôn luôn sáng tạo không ngừng để mang tới những dịch vụ giá trị gia tăng mới cho khách hàng.</p>
 
-                Đến với sim số đẹp tại PTCHH bạn sẽ luôn được ưu đãi về giá, bởi chúng tôi trực tiếp bán sim cho khách hàng không thông qua các khâu trung gian nên giá luôn tốt nhất.
+                <p>Đến với sim số đẹp tại PTCHH bạn sẽ luôn được ưu đãi về giá, bởi chúng tôi trực tiếp bán sim
+                    cho khách hàng không thông qua các khâu trung gian nên giá luôn tốt nhất.</p>
                 <h4>Kho sim PTCHH xin kính chúc quý khách tìm được sim số đẹp ưng ý và may mắn!</h4>
             </p>
         </div>

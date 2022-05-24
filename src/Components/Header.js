@@ -45,15 +45,19 @@ function Header() {
         <Link to={"/tintuc"} className="non-textdecoration">
           <div className="tintuc">Tin tức</div>
         </Link>
+
         <Link to={"/giohang"} className="non-textdecoration">
           <div className="giohang">Sản phẩm</div>
         </Link>
-        <div className="trogiup">Trợ giúp</div>
-        <div className="lienhe">
-          <a href="/" className="non-textdecoration">
-            Liên hệ
-          </a>
-        </div>
+
+        <Link to={"/home"} className="non-textdecoration">
+        <div className="trogiup">Giới thiệu</div>
+          </Link>
+
+          <Link to={"/lienhe"} className="non-textdecoration">
+        <div className="lienhe">Liên hệ</div>
+        </Link>
+
       </div>
       <button
         className="mobile-menu-icon"

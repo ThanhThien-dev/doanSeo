@@ -22,9 +22,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="product-container">
               <About></About>
-            </div>
           }
         ></Route>
         <Route path="/tintuc" element={<News></News>}></Route>
@@ -37,6 +35,8 @@ function App() {
           </div>
         }
         ></Route>
+        <Route path="/home" element={<About />}></Route>
+        <Route path="/home/lienhe" element={<Footer />}></Route>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
