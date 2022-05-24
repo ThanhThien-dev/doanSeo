@@ -45,7 +45,9 @@ function Header() {
         <Link to={"/tintuc"} className="non-textdecoration">
           <div className="tintuc">Tin tức</div>
         </Link>
-        <div className="giohang">Giỏ hàng</div>
+        <Link to={"/giohang"} className="non-textdecoration">
+          <div className="giohang">Sản phẩm</div>
+        </Link>
         <div className="trogiup">Trợ giúp</div>
         <div className="lienhe">
           <a href="/" className="non-textdecoration">
