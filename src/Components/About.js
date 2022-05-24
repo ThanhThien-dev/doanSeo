@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div>
+        <div className="about-container">
             <h1>Kho sim PTCHH - Kho sim Viettel độc lạ được yêu thích nhất VN.</h1>
             <p>
                 Ra mắt vào ngày 01 tháng 05 năm 2022, <span>PTCHH</span> là kho sim lớn nhất và đáng tin cậy
@@ -59,6 +59,7 @@ function About() {
             </p>
 
             <h2>Tầm nhìn và sứ mệnh</h2>
+            <img src={require("./images/about3.png")} alt="Tầm nhìn và sứ mệnh" />
             <p>
                 Khách hàng đến với tổng kho sim PTCHH là đến với một sự lựa chọn hoàn hảo khi mua sim số đẹp uy tín trên toàn quốc.
                 Kho sim PTCHH luôn đảm bảo quyền lợi khách hàng bằng cách:
