@@ -465,6 +465,14 @@ body {
   padding-left: 50px;
 }
 
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  padding-top: 20px;
+  text-align: justify;
+}
+
 
 
 

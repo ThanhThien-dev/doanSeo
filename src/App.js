@@ -22,7 +22,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="product-container">
+            <div>
               <About></About>
             </div>
           }
@@ -30,12 +30,14 @@ function App() {
         <Route path="/tintuc" element={<News></News>}></Route>
         <Route path="/tintuc/1" element={<Noidung1></Noidung1>}></Route>
         <Route path="/tintuc/2" element={<Noidung2></Noidung2>}></Route>
-        <Route path="/giohang" element={
-          <div className="product-container">
-            <Filter></Filter>
-            <Product></Product>
-          </div>
-        }
+        <Route
+          path="/giohang"
+          element={
+            <div className="product-container">
+              <Filter></Filter>
+              <Product></Product>
+            </div>
+          }
         ></Route>
       </Routes>
       <Footer></Footer>
